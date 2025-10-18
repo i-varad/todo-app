@@ -92,13 +92,41 @@ body {
     font-weight: 500;
 }
 
-.task-status {
+.task-actions{
+    display: flex;
+    gap: .5rem;
+    font-weight: 500;
+}
+
+.actions-status {
     font-size: .8rem;
 
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 22px;
     padding: .2rem 1rem;
 
+}
+.actions-delete {
+    font-size: .8rem;
+
+    border: 2px solid rgb(196, 28, 28);
+    border-radius: 22px;
+    padding: .2rem 1rem;
+    color: brown;
+    
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.no-tasks{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: 500;
+    /* float: f; */
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
